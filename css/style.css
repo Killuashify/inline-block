@@ -1,0 +1,73 @@
+@import url('reset.css');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.left-column, .right-column, .left-side, .right-side, .bottom-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-size: 16px;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    background-color: lightyellow;
+}
+
+.box-large {
+    width: 800px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.box-small {
+    height: 133.33px;
+    background-color: lightblue;
+}
+
+.left-box, .top-right {
+    width: 600px;
+    height: 300px;
+    background-color: pink;
+}
+
+.top-right {
+    width: 600px;
+    height: 150px;
+}
+
+.bottom-container, .bottom-right {
+    display: flex;
+}
+
+.bottom-left {
+    width: 300px;
+    height: 150px;
+}
+
+.bottom-right-1, .bottom-right-2 {
+    width: 300px;
+    height: 75px;
+    background-color: lightyellow;
+}
+
+.bottom-right-1 {
+    border-bottom: 1px solid #000;
+}
